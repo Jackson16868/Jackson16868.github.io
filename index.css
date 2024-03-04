@@ -1,0 +1,35 @@
+.container{
+    width: 100%;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .container{
+        width: 50%;
+        margin: 100px auto;
+    }
+}
+
+
+h2{
+    font-size: 1.2em;
+    font-weight: 800;
+    border:1px solid rgb(243, 182, 175);
+    border-left: 20px solid rgb(243, 182, 175);
+    padding: 10px;
+}
+
+p{
+    margin-bottom: 50px;
+}
+
+.header{
+    margin:100px auto;
+    text-align: center;
+    font-size:2rem;
+    color:rgb(105, 84, 81);
+}
+body{
+    background-color: rgb(243, 243, 243);
+}
